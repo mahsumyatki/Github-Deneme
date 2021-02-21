@@ -22,6 +22,7 @@ namespace ValueAndReferenceTypes
             Console.WriteLine(number1); //number1=50
 
             /*
+             * 
              Referans tiplerde ise hem stack hem de heap kullanılır. Burada int numbers1 denildiğinde stack içerisinde numbers1 diye bir değişken oluşur.
              Devamında new denildiğinde heap içerisinde yeni bir alan oluştur ve değerleri oraya yaz demek olur. Bu heap içerisinde bir adrese sahip olur.
              Sonra numbers2 dizisi tanımlandığında stack içerisinde numbers2 adında bir değişken oluşur ve new dendiği gibi aynı şekilde heap içerisinde yeni bir alan
